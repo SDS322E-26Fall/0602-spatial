@@ -2,7 +2,6 @@ library(tidyverse)
 library(osmdata)
 library(rnaturalearth)
 library(usmap)
-library(ggmap)
 
 mapWorld <- map_data("world") |> as_tibble()
 
